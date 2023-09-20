@@ -1,0 +1,44 @@
+Program Specifications
+Candidate management system includes some functions 
+are work for creating, updating, deleting as well as searching. 
+Create three classes with three kinds of candidate: 
+Experience, Fresher, Intern
+All Candidates have common attributes: 
+Candidate Id, First Name, Last Name, Birth Date, Address,
+ Phone, Email and Candidate type. There are three value 
+ of candidate type:
+-	0: for Experience
+-	1: for Fresher candidate
+-	2: for Intern candidate
+
+However, each kind of candidate has addition different 
+attributes: 
+-	Experience Candidate: year of experience (ExpInYear), 
+Professional Skill (ProSkill). 
+-	Fresher Candidate has addition attributes:
+ graduated time (Graduation_date), Rank of Graduation (Graduation_rank)
+  and university where student graduated (Education)
+-	Intern Candidate: Majors, Semester, University name
+
+
+//-------------
+o	Birth Date : is number with length is 4 character 
+(1900..Current Year)
+o	Phone: is number with minimum 10 characters
+o	Email: with format <account name>@<domain>. 
+(eg: annguyen@fpt.edu.vn)
+o	Year of Experience : is number from 0 to 100
+o	Rank of Graduation: with one of 4 values
+ (Excellence, Good, Fair, Poor)
+
+ CANDIDATE MANAGEMENT SYSTEM
+1.	Experience
+2.	Fresher
+3.	Internship
+4.	Searching	
+5.	Exit
+
+Candidate Id, First Name, Last Name, Birth Date, Address, 
+Phone, Email and Candidate type. 
+There are three value of candidate type:
+
